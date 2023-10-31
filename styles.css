@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #303656;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jost', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #5865f2;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+}
+
+nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #81e8f7;
+}
+
+nav a:hover {
+    color: #e272bb;
+}
+
+.hero-1, .hero-2 {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.btn-primary {
+    background-color: #81e8f7;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #303656;
+}
+
+.logo-gallery img, .city-tokens img {
+    margin: 0.5rem;
+}
+
+/* Additional styles will be added as the design progresses */
