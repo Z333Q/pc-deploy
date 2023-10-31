@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #303656;
@@ -73,4 +74,20 @@ nav a {
 .hero-1 h1, .hero-2 h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
+}
+
+.logo-gallery, .city-tokens {
+    gap: 1rem;
+}
+
+.content-cards-row1, .content-cards-row2 {
+    gap: 2rem;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .content-cards-row1, .content-cards-row2 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
