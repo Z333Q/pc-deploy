@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #303656;
@@ -49,3 +48,29 @@ nav a:hover {
 }
 
 /* Additional styles will be added as the design progresses */
+
+.container-fluid {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #5865f2;
+    padding: 1rem 0;
+}
+
+nav a {
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.logo-gallery img, .city-tokens img {
+    max-width: 100px;
+    margin: 0.5rem;
+}
+
+.hero-1 h1, .hero-2 h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
